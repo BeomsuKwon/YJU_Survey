@@ -1,3 +1,6 @@
+<?php
+error_reporting(0);
+ ?>
 <html>
 <!DOCTYPE html>
 <html>
