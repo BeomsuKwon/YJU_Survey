@@ -67,8 +67,7 @@ class SurveyController {
             $this->_db_model->insert($this->std_id, $this->name, $this->dept_name, $this->phone, $this->theme, $this->prof_name, $ppt_name, $video_name);
         }
 
-        include_once('./index.php');
-        alert("제출이 완료되었습니다.");
+        include_once('./end.php');
     }
 
     public function isUploaded($std_id = null) {
